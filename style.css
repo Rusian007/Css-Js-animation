@@ -1,0 +1,269 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: grid;
+	background: rgb(10,10,10);
+	height: 100vh;
+	width: 100vh;
+}
+#wrapper{
+	width: 90vmin;
+	position: relative;
+	height: 90vmin;
+}
+
+#wrapper > .shape{
+	height: 30%;
+	width: 30%;
+	border-radius: 5px;
+	position: absolute;
+	transition: left, top, height, width, border-radius;
+	transition-duration: 750ms;
+	transition-timing-function: ease-in-out;
+}
+
+#wrapper > .shape:nth-child(1){
+	background: #107999; 
+	left: 0%;
+	top: 20%;
+	height: 40%;
+	width: 15%;
+}
+
+#wrapper > .shape:nth-child(2){
+	background: #340470;
+	left: 20%;
+	top: 20%;
+	height: 50%;
+	width: 12.5%;
+}
+#wrapper > .shape:nth-child(3){
+	background: #35495e;
+	border-radius: 11px;
+	left: 40%;
+	top: 20%;
+	height: 15%;
+	width: 25%;
+}
+#wrapper > .shape:nth-child(4){
+	background: #ff7e67;
+	border-radius: 11px;
+	left: 60%;
+	top: 20%;
+	height: 22%;
+	width: 12.5%;
+}
+#wrapper > .shape:nth-child(5){
+	background: #f9c11c; 
+	border-radius: 11px;
+	left: 80%;
+	top: 20%;
+	height: 33%;
+	width: 13.4%;
+}
+#wrapper > .shape:nth-child(6){
+	background: #1f2b4a; 
+	border-radius: 5px;
+	left: 80%;
+	top: 20%;
+	height: 33%;
+	width: 20%;
+}
+#wrapper > .shape:nth-child(7){
+	background: #0ffff8; 
+	border-radius: 15px;
+	left: 80%;
+	top: 20%;
+	height: 33%;
+	width: 20%;
+}
+
+
+
+
+/* 1st config */ 
+#wrapper[data-configuration="1"] > .shape:nth-child(1){
+	left: 0%;
+	top: 20%;
+	height: 40%;
+	width: 15%;
+}
+#wrapper[data-configuration="1"] > .shape:nth-child(2){
+	left: 15%;
+	top: 20%;
+	height: 50%;
+	width: 15%;
+}
+#wrapper[data-configuration="1"] > .shape:nth-child(3){
+	left: 30%;
+	top: 20%;
+	height: 15%;
+	width: 15%;
+}
+#wrapper[data-configuration="1"] > .shape:nth-child(4){
+	left: 45%;
+	top: 20%;
+	height: 22%;
+	width: 15%;
+}
+#wrapper[data-configuration="1"] > .shape:nth-child(5){
+	left: 60%;
+	top: 20%;
+	height: 33%;
+	width: 15%;
+}
+#wrapper[data-configuration="1"] > .shape:nth-child(6){
+	left: 75%;
+	top: 20%;
+	height: 66%;
+	width: 15%;
+}
+#wrapper[data-configuration="1"] > .shape:nth-child(7){
+	left: 90%;
+	top: 20%;
+	height: 45%;
+	width: 15%;
+}
+
+
+
+/* 2nd config */ 
+#wrapper[data-configuration="2"] > .shape:nth-child(1){
+	left: 0%;
+	top: 20%;
+	height: 35%;
+	width: 15%;
+	border-radius: 10px;
+}
+#wrapper[data-configuration="2"] > .shape:nth-child(2){
+	left: 15%;
+	top: 20%;
+	height: 39%;
+	width: 15%;
+	border-radius: 10px;
+}
+#wrapper[data-configuration="2"] > .shape:nth-child(3){
+	left: 30%;
+	top: 20%;
+	height: 70%;
+	width: 15%;
+}
+#wrapper[data-configuration="2"] > .shape:nth-child(4){
+	left: 45%;
+	top: 20%;
+	height: 44%;
+	width: 15%;
+}
+#wrapper[data-configuration="2"] > .shape:nth-child(5){
+	left: 60%;
+	top: 20%;
+	height: 88%;
+	width: 15%;
+}
+#wrapper[data-configuration="2"] > .shape:nth-child(6){
+	left: 75%;
+	top: 20%;
+	height: 49%;
+	width: 15%;
+}
+#wrapper[data-configuration="2"] > .shape:nth-child(7){
+	left: 90%;
+	top: 20%;
+	height: 68%;
+	width: 15%;
+}
+
+
+
+
+/* 3rd config */ 
+#wrapper[data-configuration="3"] > .shape:nth-child(1){
+	left: 0%;
+	top: 20%;
+	height: 60%;
+	width: 15%;
+}
+#wrapper[data-configuration="3"] > .shape:nth-child(2){
+	left: 15%;
+	top: 20%;
+	height: 44%;
+	width: 15%;
+}
+#wrapper[data-configuration="3"] > .shape:nth-child(3){
+	left: 30%;
+	top: 20%;
+	height: 55%;
+	width: 15%;
+}
+#wrapper[data-configuration="3"] > .shape:nth-child(4){
+	left: 45%;
+	top: 20%;
+	height: 66%;
+	width: 15%;
+}
+#wrapper[data-configuration="3"] > .shape:nth-child(5){
+	left: 60%;
+	top: 20%;
+	height: 27%;
+	width: 15%;
+}
+#wrapper[data-configuration="3"] > .shape:nth-child(6){
+	left: 75%;
+	top: 20%;
+	height: 77%;
+	width: 15%;
+}
+#wrapper[data-configuration="3"] > .shape:nth-child(7){
+	left: 90%;
+	top: 20%;
+	height: 22%;
+	width: 15%;
+}
+
+
+
+/* 4th config */ 
+#wrapper[data-configuration="4"] > .shape:nth-child(1){
+	left: 0%;
+	top: 20%;
+	height: 45%;
+	width: 15%;
+}
+#wrapper[data-configuration="4"] > .shape:nth-child(2){
+	left: 15%;
+	top: 20%;
+	height: 55%;
+	width: 15%;
+}
+#wrapper[data-configuration="4"] > .shape:nth-child(3){
+	left: 30%;
+	top: 20%;
+	height: 65%;
+	width: 15%;
+}
+#wrapper[data-configuration="4"] > .shape:nth-child(4){
+	left: 45%;
+	top: 20%;
+	height: 75%;
+	width: 15%;
+}
+#wrapper[data-configuration="4"] > .shape:nth-child(5){
+	left: 60%;
+	top: 20%;
+	height: 81%;
+	width: 15%;
+}
+#wrapper[data-configuration="4"] > .shape:nth-child(6){
+	left: 75%;
+	top: 20%;
+	height: 76%;
+	width: 15%;
+}
+#wrapper[data-configuration="4"] > .shape:nth-child(7){
+	left: 90%;
+	top: 20%;
+	height: 61%;
+	width: 15%;
+}
